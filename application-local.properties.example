@@ -1,0 +1,14 @@
+# Modelo das configurações locais (segredos).
+#
+# 1. Copie este arquivo para "application-local.properties", na raiz do projeto (ao lado do pom.xml).
+# 2. Troque os valores abaixo pelos seus.
+# 3. Suba a aplicação com o perfil "local" (veja o README).
+#
+# O application-local.properties está no .gitignore: nunca versione o arquivo real.
+
+# Senha do usuário do MySQL definido em application.properties (spring.datasource.username).
+spring.datasource.password=troque-pela-sua-senha-do-mysql
+
+# Chave usada para assinar os tokens JWT (HMAC-SHA256). Precisa ter pelo menos 32 caracteres.
+# Gere uma aleatória com: openssl rand -base64 48
+jwt.secret=troque-por-uma-chave-aleatoria-com-pelo-menos-32-caracteres

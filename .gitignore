@@ -1,0 +1,50 @@
+### Maven / Spring Boot ###
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Segredos locais (nunca versionar) ###
+application-local.properties
+
+### Ferramentas de IA (skills e instruções locais) ###
+.agents/
+.claude/
+skills-lock.json
+/CLAUDE.md
+
+### Material de estudo pessoal ###
+/ESTUDO-API-SPRING.md
+/*.html
+
+### macOS ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
